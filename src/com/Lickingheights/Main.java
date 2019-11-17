@@ -12,7 +12,7 @@ public class Main {
         int go = 0;
 
         while (go == 0) {
-\
+
             System.out.println("Enter the date you were born (Ex September 18, 2001 enter 18)");
             int dayOfMonth = keyboard.nextInt();
             System.out.println("Enter the month number you were born on (Example September is 9, March is 3 and etc.");
@@ -66,8 +66,13 @@ public class Main {
                         System.out.println("Friday ");
                         System.out.println("Fridays Child Is Loving And Giving");
                         break;
-                        
+
                 }
+            System.out.println("Would you like to play again? ");
+            System.out.println("Type 'y' for yes or 'n' for no");
+            keepGoing = continueKB.nextLine();
+            go = keepGoing.indexOf("y");
+            System.out.println("Thanks for playing");
 
 
 
