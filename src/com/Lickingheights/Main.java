@@ -17,6 +17,11 @@ public class Main {
         System.out.println("Enter the year you were born in");
         int year = keyboard.nextInt();
 
+        if (month == 1 || month ==2){
+                month = (month == 1) ? 13: 14;
+                year --;
+        }
+
 
 
     }
