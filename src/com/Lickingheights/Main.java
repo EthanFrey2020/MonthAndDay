@@ -22,6 +22,14 @@ public class Main {
                 year --;
         }
 
+        {
+            int dayOfWeek = (dayOfMonth + (26 * (month + 1)) / 10 + (year % 100)
+                    + (year % 100) / 4 + (year / 100) / 4 + 5 * (year / 100)) % 7;
+
+            System.out.println("Day of the week is");
+            switch (dayOfWeek)
+        }
+
 
 
     }
